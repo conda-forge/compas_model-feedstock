@@ -1,5 +1,5 @@
 {% set name = "compas_model" %}
-{% set version = "0.4.5" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compas_model-{{ version }}.tar.gz
-  sha256: 6322b49bc78ccaae22f385f22cbadf56bdc77c86fe4663ffead0d4fa4d77da2d
+  sha256: b1a1905c162e5285ef6137a3de98f0e6d113a7902045adce2b166d171daae824
 
 build:
   noarch: python
